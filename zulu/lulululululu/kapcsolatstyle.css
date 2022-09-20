@@ -1,0 +1,129 @@
+body {
+	background-color:#f8f7ee;
+	font-family: monospace;
+	margin: 0px;
+	padding: 0px;
+}
+
+a:link {
+	color: rgb(255, 255, 255);
+}
+
+
+.label {
+    color: white;
+}
+
+.input {
+    width: 400px;
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    border: 1px solid;
+    border-radius: 14px;
+    outline: none;
+}
+
+#urlapdiv {
+    padding: 5%;
+    width: 500px;
+    height: 20px;
+    margin: 0px auto;
+}
+
+.btn {
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  background-color: rgba(13, 110, 0, 1);
+}
+
+form {
+  margin: 35px;
+  size: 30px;
+}
+
+h1 {
+	text-align: center;
+	color: rgb(13, 110, 0);
+  font-size: 50px;
+}
+
+h3 {
+	color: white;
+  border-left: 2px solid dodgerblue;
+  padding: 10px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+p {
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.linkxd {
+	color: rgb(5, 43, 0);
+}
+
+.kuka {
+	width: 64px;
+	height: 64px;
+}
+
+.contact-logo {
+    width: 30%;
+    height: 30%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+li, a, button {
+    font-weight: 500;
+    font-size: 16px;
+    color: aliceblue;
+    text-decoration: none;
+  
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color:#dddbc5;
+  }
+  
+  .nav_menu {
+    list-style: none;
+  }
+  
+  .nav_menu li {
+    display: inline-block;
+    padding: 0px 20px;
+  }
+  
+  .nav_menu li a {
+    transition: all 0.3s ease 0s;
+  }
+  
+  .nav_menu li a:hover {
+    color: rgba(13, 110, 0, 1);
+  }
+  
+  button {
+    padding: 9px 25px;
+    background-color: rgba(13, 110, 0, 1);
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+  }
+  
+  button:hover {
+    background-color: rgba(13, 110, 0, 1);
+  }
+

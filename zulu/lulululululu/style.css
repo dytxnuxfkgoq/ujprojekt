@@ -1,0 +1,99 @@
+body {
+	background-color:#f8f7ee;
+	font-family: monospace;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+.linkxd {
+	color: rgb(5, 43, 0);
+}
+
+h1 {
+	text-align: center;
+	color: rgb(5, 43, 0);
+}
+
+p {
+	text-align: center;
+}
+
+.logo {
+	text-align: center;
+}
+
+.logok {
+	width: 10%;
+	height: 10%;
+}
+
+img {
+	width: 50%;
+	height: 50%;
+}
+
+h2 {
+	color: rgba(13, 110, 0, 1);
+	text-align: center;
+}
+
+#csoporttagok {
+	color: rgba(13, 110, 0, 1);
+	text-align: center;
+}
+
+#cr {
+	font-size: 10px;
+	color: rgba(13, 110, 0, 1);
+}
+
+li, a, button {
+	font-weight: 500;
+	font-size: 16px;
+	color: aliceblue;
+	text-decoration: none;
+  
+  }
+  
+  header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 10%;
+	background-color:#dddbc5;
+  }
+  
+  .nav_menu {
+	list-style: none;
+  }
+  
+  .nav_menu li {
+	display: inline-block;
+	padding: 0px 20px;
+  }
+  
+  .nav_menu li a {
+	transition: all 0.3s ease 0s;
+  }
+  
+  .nav_menu li a:hover {
+	color: rgb(13, 110, 0)
+  }
+  
+  button {
+    padding: 9px 25px;
+    background-color: rgba(13, 110, 0, 1);
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+  }
+  
+  button:hover {
+    background-color: rgba(13, 110, 0, 1);
+  }
+
+.kuka {
+	width: 64px;
+	height: 64px;
+}
